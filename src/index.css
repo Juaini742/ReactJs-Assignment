@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  @apply bg-gradient-to-br from-orange-500 via-yellow-500 to-red-500;
+}
+.container {
+  @apply w-[95%] mx-auto;
+}
+
+.btn-primary {
+  @apply shadow-md shadow-warning bg-gradient-to-r from-warning to-yellow-600 rounded-full text-white hover:to-warning hover:from-yellow-600 hover:transition duration-300;
+}
+.btn-danger {
+  @apply bg-danger shadow-md shadow-danger rounded-full text-white hover:bg-red-700 hover:transition duration-300;
+}
+.btn-outline-primary {
+  @apply ring-2 ring-offset-2 ring-secondary shadow-md shadow-secondary rounded-full  hover:bg-secondary hover:transition hover:text-white duration-300;
+}
+
+.transition-300:hover {
+  border-bottom: 3px solid purple;
+  transition: all ease-in-out 0.3s;
+}
+.services-card {
+  @apply p-3 pt-10 max-w-sm shadow-lg hover:shadow-2xl rounded-md flex flex-col items-center hover:transition duration-300;
+}
+
+.title-head {
+  @apply text-center animate-bounce my-10 text-4xl font-bold text-primary;
+  text-shadow: 0 0 15px rgba(249, 115, 22, 0.8);
+}
+
+.input-border {
+  @apply border-2 border-black bg-transparent py-1 rounded-lg;
+}
+
+.title-form {
+  @apply text-center font-semibold text-3xl text-primary animate-bounce;
+}
+
+.text-shadow {
+  text-shadow: 0 0 15px rgba(249, 115, 22, 0.8);
+}
+
+.flex-col-center {
+  @apply flex flex-col justify-center items-center;
+}
+.flex-row-center {
+  @apply flex justify-center items-center;
+}
+
+.card-grid-4 {
+  @apply grid grid-cols-2 md:grid-cols-4 gap-3;
+}
+.card-grid-2 {
+  @apply grid grid-cols-1 gap-3 md:grid-cols-2;
+}
+
+.card-grid-5 {
+  @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5;
+}
+
+.card-body-backdrop {
+  @apply shadow-black shadow-lg hover:bg-warning text-white hover:transition duration-300 hover:shadow-warning bg-black/50 backdrop-blur-md rounded-xl;
+}
+
+.card-backdrop {
+  @apply shadow-md shadow-black bg-black/40 text-white backdrop-blur-sm mx-auto w-full p-5 rounded-xl;
+}

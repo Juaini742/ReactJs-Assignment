@@ -1,0 +1,576 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Muhammad",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "client",
+      "password": "client123",
+      "role": "client"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "imgMenu": "../img/card 1.png",
+      "titleMenu": "Ayam Panggang",
+      "priceMenu": 12000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 2,
+      "imgMenu": "img/card 2.png",
+      "titleMenu": "Cumi Goreng",
+      "priceMenu": 15000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 3,
+      "imgMenu": "../img/card 3.png",
+      "titleMenu": "Ayam Terasi Kuda",
+      "priceMenu": 7000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 4,
+      "imgMenu": "../img/card 4.png",
+      "titleMenu": "Kuda Rica",
+      "priceMenu": 12000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 5,
+      "imgMenu": "../img/card 5.png",
+      "titleMenu": "Mie Pedas",
+      "priceMenu": 12500,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 6,
+      "imgMenu": "../img/card 6.png",
+      "titleMenu": "Soto Kuah Asam",
+      "priceMenu": 20000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 7,
+      "imgMenu": "../img/card 7.png",
+      "titleMenu": "Ayam Penyet Sedap",
+      "priceMenu": 18000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 8,
+      "imgMenu": "../img/card 8.png",
+      "titleMenu": "Cumi Kentucky",
+      "priceMenu": 11000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 9,
+      "imgMenu": "../img/card 9.png",
+      "titleMenu": "Ikan Kremes",
+      "priceMenu": 12000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 10,
+      "imgMenu": "img/card 10.png",
+      "titleMenu": "Sambal Acan",
+      "priceMenu": 15000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 11,
+      "imgMenu": "img/drink1.png",
+      "titleMenu": "Green Boost Smoothie",
+      "priceMenu": 15000,
+      "category": "Minuman",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    },
+    {
+      "id": 12,
+      "imgMenu": "img/drink2.png",
+      "titleMenu": "Tropical Paradise Mocktail",
+      "priceMenu": 15000,
+      "category": "Minuman",
+      "quantity": 1,
+      "nutrient": [
+        "Low-calorie",
+        "rich in Vitamin C"
+      ],
+      "description": "A delightful concoction of mango, passion fruit, and coconut water, offering a taste of the tropics with a burst of citrusy flavors."
+    },
+    {
+      "id": 13,
+      "imgMenu": "img/drink3.png",
+      "titleMenu": "Energizer Cold Brew",
+      "priceMenu": 16000,
+      "category": "Minuman",
+      "quantity": 1,
+      "nutrient": [
+        "High caffeine content",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A bold and invigorating cold brew coffee with a smooth finish, providing a quick energy boost for a busy day."
+    },
+    {
+      "id": 14,
+      "imgMenu": "img/drink4.png",
+      "titleMenu": "Berry Blast Smoothie",
+      "priceMenu": 15000,
+      "category": "Minuman",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A luscious blend of mixed berries, Greek yogurt, and honey, bursting with antioxidants and tangy flavors."
+    },
+    {
+      "id": 15,
+      "imgMenu": "img/drink5.png",
+      "titleMenu": "Zen Garden Herbal Tea",
+      "priceMenu": 15000,
+      "category": "Minuman",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    },
+    {
+      "id": 16,
+      "imgMenu": "img/drink6.png",
+      "titleMenu": "Citrus Infusion Iced Tea",
+      "priceMenu": 10000,
+      "category": "Minuman",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    },
+    {
+      "id": 17,
+      "imgMenu": "img/snack1.png",
+      "titleMenu": "Citrus Infusion Iced Tea",
+      "priceMenu": 10000,
+      "category": "Cemilan",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    },
+    {
+      "id": 18,
+      "imgMenu": "img/snack2.png",
+      "titleMenu": "Crunchy Honey Almonds",
+      "priceMenu": 10000,
+      "category": "Cemilan",
+      "quantity": 1,
+      "nutrient": [
+        "Rich in protein",
+        "vitamins",
+        " healthy fats"
+      ],
+      "description": "Roasted almonds glazed with honey for a crunchy and sweet snack, perfect for a quick energy boost."
+    },
+    {
+      "id": 19,
+      "imgMenu": "img/snack3.png",
+      "titleMenu": "Sea Salt Popcorn Mix",
+      "priceMenu": 10000,
+      "category": "Cemilan",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "Air-popped popcorn mixed with a sprinkle of sea salt for a light, savory treat that satisfies snack cravings."
+    },
+    {
+      "id": 20,
+      "imgMenu": "img/snack4.png",
+      "titleMenu": "Dark Chocolate Energy Bites",
+      "priceMenu": 10000,
+      "category": "Cemilan",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    },
+    {
+      "id": 21,
+      "imgMenu": "img/snack5.png",
+      "titleMenu": "Crispy Kale Chips",
+      "priceMenu": 10000,
+      "category": "Cemilan",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    },
+    {
+      "id": 22,
+      "imgMenu": "img/snack6.png",
+      "titleMenu": "Fruit and Nut Trail Mix",
+      "priceMenu": 10000,
+      "category": "Cemilan",
+      "quantity": 1,
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
+      "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
+    }
+  ],
+  "basket": [
+    {
+      "id": 9,
+      "imgMenu": "../img/card 9.png",
+      "titleMenu": "Ikan Kremes",
+      "priceMenu": 12000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 3,
+      "imgMenu": "../img/card 3.png",
+      "titleMenu": "Ayam Terasi Kuda",
+      "priceMenu": 7000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 4,
+      "imgMenu": "../img/card 4.png",
+      "titleMenu": "Kuda Rica",
+      "priceMenu": 12000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    }
+  ],
+  "purchase": [
+    {
+      "product": "Ayam Terasi Kuda",
+      "price": 7000,
+      "name": "Juaini Juaini",
+      "selectedProvinsi": "ACEH",
+      "selectedKab": "KAB. ACEH TENGGARA",
+      "selectedKec": "Lawe Alas",
+      "selectedKel": "Pasir Bangun",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "gfdgfg",
+      "id": 1
+    },
+    {
+      "product": "Cumi Kentucky, Energizer Cold Brew, Dark Chocolate Energy Bites",
+      "price": 37000,
+      "name": "Juaini Juaini",
+      "selectedProvinsi": "ACEH",
+      "selectedKab": "KAB. ACEH SELATAN",
+      "selectedKec": "Bakongan",
+      "selectedKel": "Ujong Padang",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "sasasasas",
+      "id": 2
+    },
+    {
+      "product": "Energizer Cold Brew, Dark Chocolate Energy Bites",
+      "price": 26000,
+      "name": "Juaini",
+      "selectedProvinsi": "SUMATERA SELATAN",
+      "selectedKab": "KAB. MUSI RAWAS",
+      "selectedKec": "STL Ulu Terawas",
+      "selectedKel": "Suka Karya",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "gfdgfg",
+      "id": 3
+    },
+    {
+      "product": "Energizer Cold Brew, Dark Chocolate Energy Bites, Mie Pedas, Ikan Kremes",
+      "price": 97000,
+      "name": "Muhammad Yamin",
+      "selectedProvinsi": "RIAU",
+      "selectedKab": "KAB. ROKAN HULU",
+      "selectedKec": "Kepenuhan",
+      "selectedKel": "Kepenuhan Barat Mulya",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "kksj sksj sksjsksjjs ",
+      "id": 4
+    },
+    {
+      "product": "Ayam Penyet Sedap, Ikan Kremes",
+      "price": 30000,
+      "name": "Juaini Juaini",
+      "selectedProvinsi": "RIAU",
+      "selectedKab": "KAB. INDRAGIRI HILIR",
+      "selectedKec": "Enok",
+      "selectedKel": "Pantaiseberang Makmur",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "sasdasd,jah skja s",
+      "id": 5
+    },
+    {
+      "product": "Ikan Kremes, Ayam Terasi Kuda, Kuda Rica",
+      "price": 31000,
+      "name": "Muhammad Yamin",
+      "selectedProvinsi": "BENGKULU",
+      "selectedKab": "KAB. LEBONG",
+      "selectedKec": "Lebong Selatan",
+      "selectedKel": "Mangkurajo",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "sasasasas",
+      "id": 6
+    },
+    {
+      "product": "Ikan Kremes, Ayam Terasi Kuda, Kuda Rica",
+      "price": 31000,
+      "name": "Juaini Juaini",
+      "selectedProvinsi": "JAWA TIMUR",
+      "selectedKab": "KAB. SIDOARJO",
+      "selectedKec": "Buduran",
+      "selectedKel": "Wadungasih",
+      "address": "Barabai Kabupaten Hulu Sungai Tengah provinsi Kalimantan Selatan Indonesia",
+      "gMap": "gfdgfg",
+      "id": 7
+    },
+    {
+      "product": "Ikan Kremes, Ayam Terasi Kuda, Kuda Rica",
+      "price": 31000,
+      "name": "Erik",
+      "selectedProvinsi": "JAMBI",
+      "selectedKab": "KAB. TEBO",
+      "selectedKec": "VII Koto Ilir",
+      "selectedKel": "Paseban",
+      "address": "nothing",
+      "gMap": "sas",
+      "id": 8
+    }
+  ],
+  "qoutes": [
+    {
+      "id": 1,
+      "name": "Nature's Bliss",
+      "img": "img/person1.png",
+      "rate": 4.5,
+      "quote": "A good restaurant justifies its rating through flavors that speak louder than any review ever could."
+    },
+    {
+      "id": 2,
+      "name": "Urban Sunset",
+      "img": "img/person2.png",
+      "rate": 4.2,
+      "quote": "Rating a restaurant isn't just about the food, it's about the experience that lingers beyond the last bite."
+    },
+    {
+      "id": 3,
+      "name": "Serene Seascape",
+      "img": "img/person3.png",
+      "rate": 4.8,
+      "quote": "The stars of a restaurant are not just in the sky, but also in the glowing reviews and exceptional ratings it receives."
+    },
+    {
+      "id": 4,
+      "name": "Mountain Majesty",
+      "img": "img/person4.png",
+      "rate": 4.7,
+      "quote": "A high restaurant rating is not just a number; it's a testament to the dedication and passion poured into every dish served."
+    },
+    {
+      "id": 5,
+      "name": "Vibrant Cityscape",
+      "img": "img/person5.jpg",
+      "rate": 4.4,
+      "quote": "Beyond stars and numbers, a restaurant's true rating lies in the smiles it leaves on satisfied customers' faces."
+    },
+    {
+      "name": "Muhammad Yamin",
+      "rate": "5",
+      "qoute": "",
+      "quote": "Emphasizes a dining experience tailored to meet customer needs and satisfaction, showcasing the restaurant's service-oriented approach.",
+      "id": 6
+    }
+  ]
+}
