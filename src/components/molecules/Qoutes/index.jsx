@@ -22,7 +22,7 @@ function QoutesSection() {
   };
 
   return (
-    <>
+    <section>
       <div className="flex-row-center h-[450px] p-10">
         <Slider {...settings} className="container">
           {qoutes.map((qoute) => (
@@ -42,7 +42,7 @@ function QoutesSection() {
           ))}
         </Slider>
       </div>
-    </>
+    </section>
   );
 }
 

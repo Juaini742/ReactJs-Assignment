@@ -2,8 +2,7 @@ import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { login } from "../store/actions/authActions";
-import InputBorder from "../components/atom/Input";
-import ButtonPrimary from "../components/atom/Button";
+import { Button, InputBorder } from "../components/atom/index";
 
 function LoginPage() {
   const navigate = useNavigate();
@@ -49,7 +48,9 @@ function LoginPage() {
               text="Password"
             />
           </div>
-          <ButtonPrimary type="submit" text="login" className="py-2" />
+          <Button variant="primary" type="submit" className="py-2">
+            submit
+          </Button>
         </form>
       </div>
     </div>

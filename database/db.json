@@ -211,11 +211,7 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -225,10 +221,7 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": [
-        "Low-calorie",
-        "rich in Vitamin C"
-      ],
+      "nutrient": ["Low-calorie", "rich in Vitamin C"],
       "description": "A delightful concoction of mango, passion fruit, and coconut water, offering a taste of the tropics with a burst of citrusy flavors."
     },
     {
@@ -238,11 +231,7 @@
       "priceMenu": 16000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": [
-        "High caffeine content",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High caffeine content", "vitamins", "fiber"],
       "description": "A bold and invigorating cold brew coffee with a smooth finish, providing a quick energy boost for a busy day."
     },
     {
@@ -252,11 +241,7 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A luscious blend of mixed berries, Greek yogurt, and honey, bursting with antioxidants and tangy flavors."
     },
     {
@@ -266,11 +251,7 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -280,11 +261,7 @@
       "priceMenu": 10000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -294,11 +271,7 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -308,11 +281,7 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": [
-        "Rich in protein",
-        "vitamins",
-        " healthy fats"
-      ],
+      "nutrient": ["Rich in protein", "vitamins", " healthy fats"],
       "description": "Roasted almonds glazed with honey for a crunchy and sweet snack, perfect for a quick energy boost."
     },
     {
@@ -322,11 +291,7 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "Air-popped popcorn mixed with a sprinkle of sea salt for a light, savory treat that satisfies snack cravings."
     },
     {
@@ -336,11 +301,7 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -350,11 +311,7 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -364,11 +321,7 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": [
-        "High in antioxidants",
-        "vitamins",
-        "fiber"
-      ],
+      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     }
   ],
@@ -416,6 +369,25 @@
       "imgMenu": "../img/card 4.png",
       "titleMenu": "Kuda Rica",
       "priceMenu": 12000,
+      "category": "Makanan",
+      "quantity": 1,
+      "nutrient": [
+        "Kalori: Sekitar 300-400 kalori.",
+        "Lemak: Sekitar 10-15 gram.",
+        "Karbohidrat: Sekitar 40-50 gram.",
+        "Protein: Sekitar 8-12 gram.",
+        "Serat: Sekitar 2-4 gram.",
+        "Kolesterol: Bervariasi, hingga 100 mg.",
+        "Natrium: Bervariasi, hingga 800 mg.",
+        "Vitamin dan Mineral: Bergantung pada bahan tambahan."
+      ],
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet voluptate necessitatibus facere dolorum ullam temporibus iste consectetur voluptatibus reiciendis adipisci."
+    },
+    {
+      "id": 2,
+      "imgMenu": "img/card 2.png",
+      "titleMenu": "Cumi Goreng",
+      "priceMenu": 15000,
       "category": "Makanan",
       "quantity": 1,
       "nutrient": [
@@ -564,13 +536,6 @@
       "img": "img/person5.jpg",
       "rate": 4.4,
       "quote": "Beyond stars and numbers, a restaurant's true rating lies in the smiles it leaves on satisfied customers' faces."
-    },
-    {
-      "name": "Muhammad Yamin",
-      "rate": "5",
-      "qoute": "",
-      "quote": "Emphasizes a dining experience tailored to meet customer needs and satisfaction, showcasing the restaurant's service-oriented approach.",
-      "id": 6
     }
   ]
 }

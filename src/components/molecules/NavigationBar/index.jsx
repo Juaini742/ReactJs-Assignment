@@ -1,9 +1,8 @@
-// import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <header className="fixed w-full h-12 bg-primary/30 backdrop-blur-sm flex z-50 top-0 justify-center items-center">
-        <nav className="flex w-[90%] justify-between">
+      <header className="fixed w-full flex z-50 top-0">
+        <nav className="flex container bg-warning/30 backdrop-blur-lg rounded-full p-5 justify-between">
           <div className="">
             <h3>logo</h3>
           </div>

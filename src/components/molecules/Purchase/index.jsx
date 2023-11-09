@@ -2,6 +2,7 @@ import { Card } from "antd";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getPurchaseAction } from "../../../store/actions/purchaseShow";
+import { Container } from "../../atom/index";
 
 function PurchaseSection() {
   const dispatch = useDispatch();
@@ -12,8 +13,8 @@ function PurchaseSection() {
   }, [dispatch]);
 
   return (
-    <>
-      <div className="container flex flex-col-reverse">
+    <section>
+      <Container className="flex flex-col-reverse">
         {purchase.map((item) => (
           <Card
             key={item.id}
@@ -42,8 +43,8 @@ function PurchaseSection() {
             </h3>
           </Card>
         ))}
-      </div>
-    </>
+      </Container>
+    </section>
   );
 }
 

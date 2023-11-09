@@ -4,14 +4,15 @@ import {
   TitleHead,
   HeadDescCard,
   DescriptionCard,
+  Container,
 } from "../../atom/index";
 
 function AboutSection() {
   return (
-    <>
-      <section className="container my-10">
+    <section>
+      <Container className="my-10">
         <TitleHead>About</TitleHead>
-        <Card variant="grid-1-2">
+        <Card variant="grid-1-2" className="gap-10">
           <div className="flex flex-col justify-evenly">
             <HeadDescCard
               head="Delight in Every Bite at Our Dining Haven"
@@ -22,7 +23,7 @@ function AboutSection() {
             />
             <img src="img/about1.jpg" alt="About 1" className="rounded-xl" />
           </div>
-          <div className="flex md:flex-col flex-col-reverse justify-between">
+          <div className="flex md:flex-col flex-col-reverse">
             <img src="img/about2.jpg" alt="About 2" className="rounded-xl" />
             <DescriptionCard
               head=" Exquisite Flavors, Unmatched Quality"
@@ -42,8 +43,8 @@ function AboutSection() {
             />
           </div>
         </Card>
-      </section>
-    </>
+      </Container>
+    </section>
   );
 }
 

@@ -7,6 +7,7 @@ import DescriptionCard from "./DescCard";
 import Card_Body from "./Card-Body";
 import InputBorder from "./Input";
 import TitleForm from "./TitleForm";
+import Container from "./Container";
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   Card_Body,
   InputBorder,
   TitleForm,
+  Container,
 };

@@ -53,10 +53,10 @@ body {
 }
 
 .card-grid-4 {
-  @apply grid grid-cols-2 md:grid-cols-4 gap-3;
+  @apply grid grid-cols-2 md:grid-cols-4;
 }
 .card-grid-2 {
-  @apply grid grid-cols-1 gap-3 md:grid-cols-2;
+  @apply grid grid-cols-1 md:grid-cols-2;
 }
 
 .card-grid-5 {

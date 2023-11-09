@@ -4,13 +4,17 @@ VITE_APP_PRODUCTS_URL = "http://localhost:3000/products"
 VITE_APP_BASKETS_URL = "http://localhost:3000/basket"
 VITE_APP_PURCHASES_URL = "http://localhost:3000/purchase"
 VITE_APP_QOUTES_URL = "http://localhost:3000/qoutes"
+VITE_APP_PROV_URL = "https://api.goapi.io/regional/provinsi"
+VITE_APP_KAB_URL = "https://api.goapi.io/regional/kota"
+VITE_APP_KEC_URL = "https://api.goapi.io/regional/kecamatan"
+VITE_APP_KEL_URL = "https://api.goapi.io/regional/kelurahan"
+VITE_APP_API_KEY_URL = "303d1d2b-7cfe-5fb8-6145-8ef1486d"
 
 Requirements
 axios
 react-router-dom
 redux react-redux
 redux-toolkid
-
 
 -- Support Used --
 

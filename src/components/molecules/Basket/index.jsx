@@ -5,7 +5,7 @@ import { Card } from "antd";
 import { useDispatch, useSelector } from "react-redux";
 import { addToBasket } from "../../../store/actions/basketShow.action";
 import { deleteBasket } from "../../../store/actions/basketDelete.action";
-import { Button } from "../../atom/index";
+import { Button, Container } from "../../atom/index";
 import {
   increaseQuantity,
   decreaseQuantity,
@@ -59,8 +59,8 @@ function BasketData() {
   };
 
   return (
-    <>
-      <div className="container mt-32 ">
+    <section>
+      <Container className="mt-28">
         <Card className="w-[94%] mx-auto fixed z-10 right-0 left-0 top-20">
           <div className=" flex justify-between items-center">
             <h2 className="text-xl">
@@ -133,7 +133,7 @@ function BasketData() {
             </Card>
           ))}
         </div>
-      </div>
+      </Container>
       {showPurchase && (
         <BasketForm
           baskets={baskets}
@@ -141,7 +141,7 @@ function BasketData() {
           handleShowPurchase={handleShowPurchase}
         />
       )}
-    </>
+    </section>
   );
 }
 

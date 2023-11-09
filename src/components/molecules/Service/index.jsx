@@ -1,12 +1,12 @@
-import { TitleHead, Card } from "../../atom/index";
+import { Container, TitleHead, Card } from "../../atom/index";
 
 function ServiceSection() {
   return (
-    <>
-      <div className="mt-32 container">
+    <section>
+      <Container className="mt-32">
         <TitleHead>Service</TitleHead>
 
-        <Card variant="grid-2-4">
+        <Card variant="grid-2-4" className="gap-5">
           <div className="services-card">
             <span className="">
               <svg
@@ -148,8 +148,8 @@ function ServiceSection() {
             </p>
           </div>
         </Card>
-      </div>
-    </>
+      </Container>
+    </section>
   );
 }
 

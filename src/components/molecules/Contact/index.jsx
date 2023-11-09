@@ -2,8 +2,8 @@ import { Card_Body, Button, TitleForm, InputBorder } from "../../atom/index";
 
 function ContactSection() {
   return (
-    <>
-      <Card_Body variant="card-backdrop">
+    <section>
+      <Card_Body variant="card-backdrop" className="h-full">
         <TitleForm>Contact</TitleForm>
         <p className=" text-center my-8">send your message here</p>
         <form action="">
@@ -18,7 +18,7 @@ function ContactSection() {
           </Button>
         </form>
       </Card_Body>
-    </>
+    </section>
   );
 }
 

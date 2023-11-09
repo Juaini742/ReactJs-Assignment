@@ -2,7 +2,9 @@ import axios from "axios";
 
 export const getKabService = async (id) => {
   const response = await axios.get(
-    `https://api.goapi.io/regional/kota?provinsi_id=${id}&api_key=303d1d2b-7cfe-5fb8-6145-8ef1486d`
+    `${import.meta.env.VITE_APP_KAB_URL}?provinsi_id=${id}&api_key=${
+      import.meta.env.VITE_APP_API_KEY_URL
+    }`
   );
   return response.data;
 };

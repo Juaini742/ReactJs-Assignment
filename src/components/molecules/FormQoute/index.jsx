@@ -43,7 +43,7 @@ function FormQoute() {
   };
 
   return (
-    <>
+    <section>
       <Card_Body variant="card-backdrop">
         <TitleForm>Qoute Form</TitleForm>
         <p className=" text-center my-8">add your qoute here</p>
@@ -80,7 +80,7 @@ function FormQoute() {
           </Button>
         </form>
       </Card_Body>
-    </>
+    </section>
   );
 }
 
