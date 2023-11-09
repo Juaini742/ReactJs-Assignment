@@ -1,0 +1,30 @@
+env
+VITE_APP_USERS_URL = "http://localhost:3000/users"
+VITE_APP_PRODUCTS_URL = "http://localhost:3000/products"
+VITE_APP_BASKETS_URL = "http://localhost:3000/basket"
+VITE_APP_PURCHASES_URL = "http://localhost:3000/purchase"
+VITE_APP_QOUTES_URL = "http://localhost:3000/qoutes"
+
+Requirements
+axios
+react-router-dom
+redux react-redux
+redux-toolkid
+
+
+-- Support Used --
+
+tailwindcss
+
+Ant Design
+npm install antd --save
+
+React Slick
+npm install react-slick --save
+
+json placeholders
+npm install -g json-server
+json-server --watch db.json
+
+geoapi
+https://goapi.io/docs/#/Regional%20Indonesia/get_regional_provinsi
