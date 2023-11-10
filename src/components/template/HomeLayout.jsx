@@ -10,27 +10,14 @@ function HomeLayout() {
     <>
       <Header />
       <MainContent />
-
       <QoutesSection />
-
       <div
-        className="bg-cover grid-cols-1 grid md:grid-cols-2 p-10 gap-10"
+        className="bg-cover card-grid-2 p-10 gap-10 overflow-hidden"
         style={{ backgroundImage: "url(img/hero2.jpg)" }}
       >
         <FormQoute />
         <ContactSection />
       </div>
-
-      {/* <MainContent />
-      <QoutesSection />
-
-      <div
-        className="bg-cover grid-cols-1 grid md:grid-cols-2 p-10 gap-10"
-        style={{ backgroundImage: "url(img/hero2.jpg)" }}
-      >
-        <FormQoute />
-        <ContactSection />
-      </div> */}
       <FooterContent />
     </>
   );

@@ -1,5 +1,5 @@
 import {
-  Card_Body,
+  CardBody,
   Button,
   TitleForm,
   InputBorder,
@@ -10,7 +10,7 @@ function ContactSection() {
   return (
     <section>
       <RightIn className="h-full">
-        <Card_Body variant="card-backdrop">
+        <CardBody variant="card-backdrop">
           <TitleForm>Contact</TitleForm>
           <p className=" text-center my-8">send your message here</p>
           <form action="">
@@ -24,7 +24,7 @@ function ContactSection() {
               send
             </Button>
           </form>
-        </Card_Body>
+        </CardBody>
       </RightIn>
     </section>
   );

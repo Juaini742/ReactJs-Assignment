@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { postQouteAction } from "../../../store/actions/qouteAdd.action";
 import {
-  Card_Body,
+  CardBody,
   Button,
   InputBorder,
   TitleForm,
@@ -51,7 +51,7 @@ function FormQoute() {
   return (
     <section>
       <LeftIn>
-        <Card_Body variant="card-backdrop">
+        <CardBody variant="card-backdrop">
           <TitleForm>Qoute Form</TitleForm>
           <p className=" text-center my-8">add your qoute here</p>
           <form onSubmit={handleAddQoute}>
@@ -86,7 +86,7 @@ function FormQoute() {
               submit
             </Button>
           </form>
-        </Card_Body>
+        </CardBody>
       </LeftIn>
     </section>
   );

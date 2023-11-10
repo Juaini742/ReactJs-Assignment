@@ -4,7 +4,7 @@ import TitleHead from "./TitleHead";
 import Card from "./Card";
 import HeadDescCard from "./HeadDecsCard";
 import DescriptionCard from "./DescCard";
-import Card_Body from "./Card-Body";
+import CardBody from "./Card-Body";
 import InputBorder from "./Input";
 import TitleForm from "./TitleForm";
 import Container from "./Container";
@@ -19,7 +19,7 @@ export {
   Card,
   HeadDescCard,
   DescriptionCard,
-  Card_Body,
+  CardBody,
   InputBorder,
   TitleForm,
   Container,

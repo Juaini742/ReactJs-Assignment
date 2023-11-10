@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-const Card_Body = (props) => {
+const CardBody = (props) => {
   const { variant, children, className, key } = props;
   let cardStyle = "";
 
@@ -19,4 +19,4 @@ const Card_Body = (props) => {
   );
 };
 
-export default Card_Body;
+export default CardBody;

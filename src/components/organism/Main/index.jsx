@@ -6,7 +6,6 @@ function MainContent() {
     <>
       <AboutSection />
       <ServiceSection />
-
       <MenuSection />
     </>
   );

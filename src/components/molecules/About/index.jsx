@@ -12,7 +12,7 @@ import {
 function AboutSection() {
   return (
     <section>
-      <Container className="my-10">
+      <Container className="my-10 overflow-hidden">
         <TitleHead>About</TitleHead>
         <Card variant="grid-1-2" className="gap-10">
           <LeftIn>

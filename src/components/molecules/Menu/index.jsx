@@ -2,13 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getDataProductsAction } from "../../../store/actions/products.action";
 import { saveBasket } from "../../../store/actions/basket.sction";
-import {
-  Container,
-  Button,
-  TitleHead,
-  Card,
-  Card_Body,
-} from "../../atom/index";
+import { Container, Button, TitleHead, Card, CardBody } from "../../atom/index";
 
 function MenuSection() {
   const dispatch = useDispatch();
@@ -35,7 +29,7 @@ function MenuSection() {
       className="mt-32  bg-cover"
       style={{ backgroundImage: "url(img/Rectangle35.jpg)" }}
     >
-      <Container className="flex-col-center p-2 py-40">
+      <Container className="flex-col-center p-2 py-40 overflow-hidden">
         <TitleHead>Our Menu</TitleHead>
         <div className="flex gap-3 mb-6 border-b-4 border-primary">
           <Button onClick={() => filterByCategory("Makanan")}>Makanan</Button>
@@ -44,7 +38,7 @@ function MenuSection() {
         </div>
         <Card variant="grid-1-3-5" className="gap-5">
           {filteredProducts.map((product) => (
-            <Card_Body
+            <CardBody
               key={product.id}
               variant="backdrop"
               className="flex-col-center max-w-xs h-96 p-2"
@@ -62,7 +56,7 @@ function MenuSection() {
               >
                 purchase
               </Button>
-            </Card_Body>
+            </CardBody>
           ))}
         </Card>
       </Container>

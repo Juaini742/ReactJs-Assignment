@@ -3,7 +3,7 @@ import { Container, TitleHead, Card, LeftIn, RightIn } from "../../atom/index";
 function ServiceSection() {
   return (
     <section>
-      <Container className="mt-32">
+      <Container className="mt-32 overflow-hidden">
         <TitleHead>Service</TitleHead>
         <Card variant="grid-1-2" className="gap-5">
           <RightIn className="flex gap-5">
