@@ -30,5 +30,9 @@ json placeholders
 npm install -g json-server
 json-server --watch db.json
 
+Framer Motion
+npm install framer-motion
+npm install react-intersection-observer
+
 geoapi
 https://goapi.io/docs/#/Regional%20Indonesia/get_regional_provinsi
