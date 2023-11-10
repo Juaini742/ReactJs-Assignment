@@ -1,26 +1,21 @@
-import { LOGIN_SUCCESS, LOGIN_FAILURE } from "../actions/authActions";
+import { createSlice } from "@reduxjs/toolkit";
 
-const initialState = {
-  user: null,
-  isLoggedIn: false,
-};
+const authReducer = createSlice({
+  name: "auth",
+  initialState: {
+    user: null,
+    isLoggedIn: false,
+  },
+  reducer: {
+    loginSuccess: (state, action) => {
+      state.user = action.payload;
+      state.isLoggedIn = true;
+    },
+    LoginFailure: (state) => {
+      state.isLoggedIn = false;
+    },
+  },
+});
 
-const authReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case LOGIN_SUCCESS:
-      return {
-        ...state,
-        user: action.payload,
-        isLoggedIn: true,
-      };
-    case LOGIN_FAILURE:
-      return {
-        ...state,
-        isLoggedIn: false,
-      };
-    default:
-      return state;
-  }
-};
-
+export const { loginSuccess, loginFailure } = authReducer.actions;
 export default authReducer;

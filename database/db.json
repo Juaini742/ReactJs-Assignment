@@ -211,7 +211,11 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -221,7 +225,10 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": ["Low-calorie", "rich in Vitamin C"],
+      "nutrient": [
+        "Low-calorie",
+        "rich in Vitamin C"
+      ],
       "description": "A delightful concoction of mango, passion fruit, and coconut water, offering a taste of the tropics with a burst of citrusy flavors."
     },
     {
@@ -231,7 +238,11 @@
       "priceMenu": 16000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": ["High caffeine content", "vitamins", "fiber"],
+      "nutrient": [
+        "High caffeine content",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A bold and invigorating cold brew coffee with a smooth finish, providing a quick energy boost for a busy day."
     },
     {
@@ -241,7 +252,11 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A luscious blend of mixed berries, Greek yogurt, and honey, bursting with antioxidants and tangy flavors."
     },
     {
@@ -251,7 +266,11 @@
       "priceMenu": 15000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -261,7 +280,11 @@
       "priceMenu": 10000,
       "category": "Minuman",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -271,7 +294,11 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -281,7 +308,11 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": ["Rich in protein", "vitamins", " healthy fats"],
+      "nutrient": [
+        "Rich in protein",
+        "vitamins",
+        " healthy fats"
+      ],
       "description": "Roasted almonds glazed with honey for a crunchy and sweet snack, perfect for a quick energy boost."
     },
     {
@@ -291,7 +322,11 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "Air-popped popcorn mixed with a sprinkle of sea salt for a light, savory treat that satisfies snack cravings."
     },
     {
@@ -301,7 +336,11 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -311,7 +350,11 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     },
     {
@@ -321,7 +364,11 @@
       "priceMenu": 10000,
       "category": "Cemilan",
       "quantity": 1,
-      "nutrient": ["High in antioxidants", "vitamins", "fiber"],
+      "nutrient": [
+        "High in antioxidants",
+        "vitamins",
+        "fiber"
+      ],
       "description": "A refreshing blend of kale, spinach, banana, and pineapple, packed with essential nutrients and perfect for a healthy boost."
     }
   ],
@@ -536,6 +583,68 @@
       "img": "img/person5.jpg",
       "rate": 4.4,
       "quote": "Beyond stars and numbers, a restaurant's true rating lies in the smiles it leaves on satisfied customers' faces."
+    },
+    {
+      "name": "jkfl s dlfshd fsl",
+      "rate": "21",
+      "qoute": "",
+      "quote": "Emphasizes a dining experience tailored to meet customer needs and satisfaction, showcasing the restaurant's service-oriented approach.",
+      "id": 6
+    },
+    {
+      "name": "Juaini Juaini",
+      "rate": "21",
+      "qoute": "",
+      "quote": "Emphasizes a dining experience tailored to meet customer needs and satisfaction, showcasing the restaurant's service-oriented approach.",
+      "id": 7
+    },
+    {
+      "name": "jkfl s dlfshd fsl",
+      "rate": "323",
+      "quote": "sda",
+      "id": 8
+    },
+    {
+      "name": "Juaini Juaini",
+      "rate": "56",
+      "quote": "fsdfgasdfg",
+      "id": 9
+    },
+    {
+      "name": "",
+      "rate": "",
+      "quote": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "rate": "",
+      "quote": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "rate": "",
+      "quote": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "rate": "",
+      "quote": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "rate": "",
+      "quote": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "rate": "",
+      "quote": "",
+      "id": 15
     }
   ]
 }

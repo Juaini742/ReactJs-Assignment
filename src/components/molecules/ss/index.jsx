@@ -11,18 +11,41 @@ import {
 
 function FormQoute() {
   const dispatch = useDispatch();
-  const [qouteData, setQouteData] = useState({ name: "", rate: "", quote: "" });
-
-  const handleInputChange = (e) => {
-    const { name, value } = e.target;
-    setQouteData({ ...qouteData, [name]: value });
-  };
+  const [qouteData, setQouteData] = useState({
+    name: "",
+    rate: "",
+    qoute: "",
+  });
 
   const handleAddQoute = (e) => {
     e.preventDefault();
-    console.log("oke");
-    dispatch(postQouteAction(qouteData, () => console.log("oke window load")));
-    console.log("oke");
+    dispatch(
+      postQouteAction(qouteData, () => {
+        window.location.reload();
+      })
+    );
+  };
+
+  const handleInputName = (e) => {
+    const { name, value } = e.target;
+    setQouteData({
+      ...qouteData,
+      [name]: value,
+    });
+  };
+  const handleInputRate = (e) => {
+    const { name, value } = e.target;
+    setQouteData({
+      ...qouteData,
+      [name]: value,
+    });
+  };
+  const handleInputQoute = (e) => {
+    const { name, value } = e.target;
+    setQouteData({
+      ...qouteData,
+      [name]: value,
+    });
   };
 
   return (
@@ -30,13 +53,13 @@ function FormQoute() {
       <LeftIn>
         <CardBody variant="card-backdrop">
           <TitleForm>Qoute Form</TitleForm>
-          <p className="text-center my-8">add your quote here</p>
+          <p className=" text-center my-8">add your qoute here</p>
           <form onSubmit={handleAddQoute}>
             <div className="flex flex-col">
               <InputBorder
                 type="text"
                 value={qouteData.name}
-                onChange={handleInputChange}
+                onChange={handleInputName}
                 name="name"
                 text="Name"
               />
@@ -45,7 +68,7 @@ function FormQoute() {
               <InputBorder
                 type="number"
                 value={qouteData.rate}
-                onChange={handleInputChange}
+                onChange={handleInputRate}
                 name="rate"
                 text="Rate"
               />
@@ -54,13 +77,13 @@ function FormQoute() {
               <InputBorder
                 type="text"
                 value={qouteData.quote}
-                onChange={handleInputChange}
+                onChange={handleInputQoute}
                 name="quote"
                 text="Quote"
               />
             </div>
             <Button type="submit" variant="primary" className="py-1 px-5">
-              Submit
+              submit
             </Button>
           </form>
         </CardBody>

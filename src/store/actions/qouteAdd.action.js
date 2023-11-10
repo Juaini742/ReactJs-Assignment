@@ -1,27 +1,27 @@
-import swal from "sweetalert";
+import { createAsyncThunk } from "@reduxjs/toolkit";
 import { postQouteService } from "../services/qouteAdd.service";
+import swal from "sweetalert";
 
-export const postQouteAction = (qouteData, callback) => {
-  return async (dispatch) => {
+export const postQouteAction = createAsyncThunk(
+  "qoute/saveQoute",
+  async (qouteData) => {
     try {
       const response = await postQouteService(qouteData);
-      dispatch({ type: "SAVE_QOUTE_SUCCESS", payload: response });
       swal({
         title: "Success",
         text: "Success adding your quote",
         icon: "success",
       }).then(() => {
-        if (callback && typeof callback === "function") {
-          callback();
-        }
+        window.location.reload();
       });
+      return response;
     } catch (error) {
-      dispatch({ type: "SAVE_QOUTE_FAILURE", payload: error.message });
       swal({
         title: "Failure",
         text: "Failed to add your quote",
         icon: "error",
       });
+      throw new Error(error.message);
     }
-  };
-};
+  }
+);
